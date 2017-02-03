@@ -12,15 +12,24 @@
 
 */
 
+
+/* body style*/
+
 body {
     font-family: Tahoma, Geneva, sans-serif;
 }
+
+
+/* articleheader style */
 
 #articleheader {
     font-size: 18px;
     letter-spacing: 7px;
     text-align: center;
 }
+
+
+/* navagation unorder list style*/
 
 nav {
     background-color: rgb(125, 120, 89);
@@ -40,6 +49,59 @@ a {
 ul {
     list-style-type: none;
 }
-#leftsection > p{
-  
+
+
+/* leftsection style*/
+
+#leftsection>p {
+    font-size: 22px;
+}
+
+#firstpar:firstline {
+    text-transform: uppercase;
+}
+
+
+/*blockquote style*/
+
+blockquote {
+    background-color: rgb(131, 121, 36);
+    color: white;
+    font-size: 16px;
+    font-family: Comic Sans MS, Times, cursive.
+}
+
+q {
+    quotes: "\0022";
+}
+
+
+/* rightsection style */
+
+#rightsection h1 {
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    text-align: center;
+}
+
+#rightsection h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: normal;
+}
+
+#rightsection p {
+    color: grey;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+/* footer address style*/
+
+footer address {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
 }
